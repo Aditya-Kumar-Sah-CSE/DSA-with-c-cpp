@@ -6,7 +6,7 @@ struct Node{
  
 };
 
-void 
+
 int main(){
 
 

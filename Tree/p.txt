@@ -1,0 +1,32 @@
+Root = topmost node
+parent - node which is connected with child
+child - node which is connected by another node is called child
+
+leaf node : no node
+
+internal node : atleast 1 node 
+
+depth : no of edge from root to the node
+height : no of edge from root to the deepest node 
+
+sibling : nodes belonging to the same parents
+
+ancestors/descendant
+
+!Binary Tree 
+
+1. at most 2 children - 2 edge
+2. n nodes => n-1 edges
+3. degree => num  of direct children
+4. degree of tree => highest degree of a node present in tree 
+5. Binary Tree => tree of degree <= 2 
+
+Types Of Binary Trees
+1. Full / Strict BT : all nodes have either 0 or 2
+2. Perfect BT : internal Nodes - 2 children + all 
+                leaf Nodes are  on same level 
+3. Complete BT : all levels are completely filled except possibly last level + last level must have its key as left as possible 
+4. Degenerate Tree : Every Parent node has exactly 1 child
+
+5. skewed Tree : 1) Left Skewed 2) Right Skewed 
+
